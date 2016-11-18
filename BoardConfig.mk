@@ -30,7 +30,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/vs985/bluetooth
 # Kernel
 TARGET_KERNEL_CONFIG := vs985_defconfig
 TARGET_REQUIRES_BUMP := true
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x/bin
 
 # NFC
 BOARD_NFC_CHIPSET := pn547
